@@ -1,3 +1,5 @@
+(/^.$/).flags;
+
 var a: RegExp = /^.$/;
 a.flags;
 

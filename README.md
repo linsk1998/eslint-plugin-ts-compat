@@ -48,6 +48,7 @@ Then configure the rules you want to use under the rules section.
 | Name                                             | Description                    |
 | :----------------------------------------------- | :----------------------------- |
 | [no-regexp-flags](docs/rules/no-regexp-flags.md) | Disable RegExp.prototype.flags |
+| [no-string-index](docs/rules/no-string-index.md) | Disable Disable string index   |
 
 <!-- end auto-generated rules list -->
 

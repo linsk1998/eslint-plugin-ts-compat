@@ -14,7 +14,8 @@ module.exports = {
 			env: { mocha: true },
 			files: ["docs/**/*.ts"],
 			rules: {
-				"ts-compat/no-regexp-flags": 2
+				"ts-compat/no-regexp-flags": 2,
+				"ts-compat/no-string-index": 2
 			}
 		},
 		{
