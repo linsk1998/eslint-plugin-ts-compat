@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"ESNext"
+		],
+		"moduleResolution": "Node",
+		"esModuleInterop": false,
+		"isolatedModules": false,
+		"moduleDetection": "force"
+	},
+	"files": [
+		"file.ts"
+	]
+}

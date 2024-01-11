@@ -1,0 +1,53 @@
+{
+	"name": "eslint-plugin-ts-compat",
+	"version": "0.0.0",
+	"description": "Check browser compat base on TypeScript.",
+	"keywords": [
+		"eslint",
+		"eslintplugin",
+		"eslint-plugin"
+	],
+	"author": "linsk",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/linsk1998/eslint-plugin-ts-compat.git"
+	},
+	"bugs": {
+		"url": "https://github.com/linsk1998/eslint-plugin-ts-compat/issues"
+	},
+	"homepage": "https://github.com/linsk1998/eslint-plugin-ts-compat#readme",
+	"main": "./lib/index.js",
+	"exports": "./lib/index.js",
+	"scripts": {
+		"lint": "npm-run-all \"lint:*\"",
+		"lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
+		"lint:js": "eslint .",
+		"test": "mocha tests --recursive",
+		"update:eslint-docs": "eslint-doc-generator"
+	},
+	"dependencies": {
+		"requireindex": "^1.2.0"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.18.0",
+		"@typescript-eslint/parser": "^6.17.0",
+		"@typescript-eslint/rule-tester": "^6.17.0",
+		"@typescript-eslint/type-utils": "^6.17.0",
+		"@typescript-eslint/typescript-estree": "^6.17.0",
+		"@typescript-eslint/utils": "^6.17.0",
+		"eslint": "^8.19.0",
+		"eslint-doc-generator": "^1.0.0",
+		"eslint-plugin-eslint-plugin": "^5.0.0",
+		"eslint-plugin-node": "^11.1.0",
+		"mocha": "^10.0.0",
+		"npm-run-all": "^4.1.5",
+		"typescript": "^5.3.3"
+	},
+	"engines": {
+		"node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=7"
+	},
+	"license": "MIT"
+}
