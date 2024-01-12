@@ -25,8 +25,8 @@ Add `ts-compat` to the plugins section of your `.eslintrc` configuration file. Y
 
 ```json
 {
-    plugins: ["ts-compat"],
-    parser: "@typescript-eslint/parser",
+    "plugins": ["ts-compat"],
+    "parser": "@typescript-eslint/parser",
 }
 ```
 
@@ -45,10 +45,12 @@ Then configure the rules you want to use under the rules section.
 
 <!-- begin auto-generated rules list -->
 
-| Name                                             | Description                    |
-| :----------------------------------------------- | :----------------------------- |
-| [no-regexp-flags](docs/rules/no-regexp-flags.md) | Disable RegExp.prototype.flags |
-| [no-string-index](docs/rules/no-string-index.md) | Disable Disable string index   |
+🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
+
+| Name                                             | Description                    | 🔧 |
+| :----------------------------------------------- | :----------------------------- | :- |
+| [no-regexp-flags](docs/rules/no-regexp-flags.md) | Disable RegExp.prototype.flags |    |
+| [no-string-index](docs/rules/no-string-index.md) | Disable string index           | 🔧 |
 
 <!-- end auto-generated rules list -->
 

@@ -25,14 +25,8 @@ const ruleTester = new RuleTester({
 });
 ruleTester.run("no-regexp-flags", rule, {
 	valid: [
-		{
-			code: `(/^.$/u).test('');`,
-			errors: [{ message: "test property can use." }],
-		},
-		{
-			code: `class RegExp{declare flags;}; var a=new RegExp(); a.flags;`,
-			errors: [{ message: "test property can use." }],
-		}
+		{ code: `(/^.$/u).test('');` },
+		{ code: `class RegExp{declare flags;}; var a=new RegExp(); a.flags;` }
 	],
 
 	invalid: [

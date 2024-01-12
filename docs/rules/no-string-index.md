@@ -1,4 +1,6 @@
-# Disable Disable string index (`ts-compat/no-string-index`)
+# Disable string index (`ts-compat/no-string-index`)
+
+🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
 <!-- end auto-generated rule header -->
 
@@ -6,22 +8,20 @@ Please describe the origin of the rule here.
 
 ## Rule Details
 
-This rule aims to...
-
 Examples of **incorrect** code for this rule:
 
 ```js
+"1"[0];
 
-// fill me in
+("1")['0'];
 
+(`1`)[0];
 ```
 
 Examples of **correct** code for this rule:
 
 ```js
-
-// fill me in
-
+"1".at(0);
 ```
 
 ## When Not To Use It
