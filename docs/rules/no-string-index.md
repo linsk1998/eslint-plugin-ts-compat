@@ -1,10 +1,12 @@
 # Disable string index (`ts-compat/no-string-index`)
 
+💼 This rule is enabled in the ✅ `recommended` config.
+
 🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
 <!-- end auto-generated rule header -->
 
-Please describe the origin of the rule here.
+Old IE and Opera do not support string index notation, and it cannot use polyfills to provide compatibility with new features.
 
 ## Rule Details
 
@@ -22,12 +24,15 @@ Examples of **correct** code for this rule:
 
 ```js
 "1".at(0);
+
+"1".charAt(0);
 ```
 
 ## When Not To Use It
 
-Give a short description of when it would be appropriate to turn off this rule.
+Read string mothed by notation.
 
 ## Further Reading
 
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+* [String.prototype.at()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/at)
+* [String.prototype.charAt()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)

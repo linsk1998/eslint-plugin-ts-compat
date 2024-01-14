@@ -1,5 +1,7 @@
 # Disable RegExp.prototype.flags (`ts-compat/no-regexp-flags`)
 
+💼 This rule is enabled in the ✅ `recommended` config.
+
 <!-- end auto-generated rule header -->
 
 When we use Babel to transform js. RegExp flags could be change. This rule can avoid the differences caused by it.

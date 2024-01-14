@@ -45,12 +45,14 @@ Then configure the rules you want to use under the rules section.
 
 <!-- begin auto-generated rules list -->
 
+💼 Configurations enabled in.\
+✅ Set in the `recommended` configuration.\
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                             | Description                    | 🔧 |
-| :----------------------------------------------- | :----------------------------- | :- |
-| [no-regexp-flags](docs/rules/no-regexp-flags.md) | Disable RegExp.prototype.flags |    |
-| [no-string-index](docs/rules/no-string-index.md) | Disable string index           | 🔧 |
+| Name                                             | Description                    | 💼 | 🔧 |
+| :----------------------------------------------- | :----------------------------- | :- | :- |
+| [no-regexp-flags](docs/rules/no-regexp-flags.md) | Disable RegExp.prototype.flags | ✅  |    |
+| [no-string-index](docs/rules/no-string-index.md) | Disable string index           | ✅  | 🔧 |
 
 <!-- end auto-generated rules list -->
 

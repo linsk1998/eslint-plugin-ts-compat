@@ -26,7 +26,8 @@ const ruleTester = new RuleTester({
 ruleTester.run("no-string-index", rule, {
 	valid: [
 		// give me some code that won't trigger a warning
-		{ code: `"1".at(0);` }
+		{ code: `"1".at(0);` },
+		{ code: `"1".charAt(0);` }
 	],
 
 	invalid: [
