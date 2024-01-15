@@ -41,6 +41,26 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
+This plugin exports a recommended config that enforces good practices.
+
+```json
+{
+    "extends": [
+        "plugin:ts-compat/recommended"
+    ]
+}
+```
+
+Support a [browserslist](https://www.npmjs.com/package/browserslist) configuration to preset rules.
+
+```json
+{
+    "extends": [
+        "plugin:ts-compat/browserslist"
+    ]
+}
+```
+
 ## Rules
 
 <!-- begin auto-generated rules list -->

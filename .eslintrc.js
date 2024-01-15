@@ -11,7 +11,6 @@ module.exports = {
 				ecmaVersion: 2021,
 				sourceType: 'module'
 			},
-			env: { mocha: true },
 			files: ["docs/**/*.ts"],
 			rules: {
 				"ts-compat/no-regexp-flags": 2,
@@ -25,6 +24,7 @@ module.exports = {
 			],
 			env: {
 				node: true,
+				mocha: true
 			},
 			parserOptions: {
 				"ecmaVersion": 2021
