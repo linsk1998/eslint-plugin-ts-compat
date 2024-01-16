@@ -69,10 +69,11 @@ Support a [browserslist](https://www.npmjs.com/package/browserslist) configurati
 ✅ Set in the `recommended` configuration.\
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                             | Description                    | 💼 | 🔧 |
-| :----------------------------------------------- | :----------------------------- | :- | :- |
-| [no-regexp-flags](docs/rules/no-regexp-flags.md) | Disable RegExp.prototype.flags | ✅  |    |
-| [no-string-index](docs/rules/no-string-index.md) | Disable string index           | ✅  | 🔧 |
+| Name                                               | Description                    | 💼 | 🔧 |
+| :------------------------------------------------- | :----------------------------- | :- | :- |
+| [no-regexp-flags](docs/rules/no-regexp-flags.md)   | Disable RegExp.prototype.flags | ✅  |    |
+| [no-regexp-sticky](docs/rules/no-regexp-sticky.md) | Disable regexp sticky          | ✅  |    |
+| [no-string-index](docs/rules/no-string-index.md)   | Disable string index           | ✅  | 🔧 |
 
 <!-- end auto-generated rules list -->
 
