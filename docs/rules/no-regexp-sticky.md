@@ -4,11 +4,9 @@
 
 <!-- end auto-generated rule header -->
 
-Please describe the origin of the rule here.
+The sticky functionality of regular expressions cannot be transpiled by Babel, and it should be avoided.
 
 ## Rule Details
-
-This rule aims to...
 
 Examples of **incorrect** code for this rule:
 
@@ -45,8 +43,8 @@ a.sticky;
 
 ## When Not To Use It
 
-Give a short description of when it would be appropriate to turn off this rule.
+Use RegExp polyfill.
 
 ## Further Reading
 
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+[can i use regexp sticky](https://caniuse.com/mdn-javascript_builtins_regexp_sticky)
