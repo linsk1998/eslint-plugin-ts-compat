@@ -31,7 +31,7 @@ new RegExp('^foo', 'y');
 Examples of **correct** code for this rule:
 
 ```js
-(/^.$/u).test('');
+(/^.$/).test('');
 
 class RegExp {
 	constructor(a, b) { }

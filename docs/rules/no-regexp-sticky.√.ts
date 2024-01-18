@@ -1,4 +1,4 @@
-(/^.$/u).test('');
+(/^.$/).test('');
 
 class RegExp {
 	constructor(a, b) { }
