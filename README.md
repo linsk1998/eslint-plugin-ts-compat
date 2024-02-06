@@ -76,7 +76,7 @@ Support a [browserslist](https://www.npmjs.com/package/browserslist) configurati
 | [no-regexp-sticky](docs/rules/no-regexp-sticky.md)   | Disable regexp sticky                        | ✅  |    |
 | [no-regexp-unicode](docs/rules/no-regexp-unicode.md) | Disable JavaScript built-in: RegExp: unicode | ✅  |    |
 | [no-string-index](docs/rules/no-string-index.md)     | Disable string index                         | ✅  | 🔧 |
-| [prefer-inner-text](docs/rules/prefer-inner-text.md) | prefer .innerText                            |    | 🔧 |
+| [prefer-inner-text](docs/rules/prefer-inner-text.md) | Prefer .innerText                            | ✅  | 🔧 |
 
 <!-- end auto-generated rules list -->
 

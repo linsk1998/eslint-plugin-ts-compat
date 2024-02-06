@@ -1,5 +1,5 @@
 /**
- * @fileoverview prefer .innerText
+ * @fileoverview Prefer .innerText
  * @author linsk
  */
 "use strict";
