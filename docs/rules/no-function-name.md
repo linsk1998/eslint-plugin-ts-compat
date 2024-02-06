@@ -1,4 +1,4 @@
-# Disable regexp sticky (`ts-compat/no-regexp-sticky`)
+# Disable Function.prototype.name (`ts-compat/no-function-name`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 

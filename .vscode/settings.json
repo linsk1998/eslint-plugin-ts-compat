@@ -21,7 +21,7 @@
 		"tsx"
 	],
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": true
+		"source.organizeImports": "explicit"
 	},
 	"editor.renderControlCharacters": true,
 	"editor.insertSpaces": false,

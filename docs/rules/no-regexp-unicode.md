@@ -4,6 +4,10 @@
 
 <!-- end auto-generated rule header -->
 
+💼 This rule is enabled in the ✅ `recommended` config.
+
+<!-- end auto-generated rule header -->
+
 The "`u`" modifier in regular expressions is a new feature added in ES6, which is used to correctly handle Unicode characters greater than \uFFFF. When creating regular expressions using the "new" keyword and the "`u`" modifier, it cannot be transpiled by Babel. When Babel transpiles expressions with the "`u`" modifier, it cannot correctly access the "`unicode`" and "`flags`" attributes.
 
 ## Rule Details
