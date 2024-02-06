@@ -10,7 +10,6 @@
 		"moduleDetection": "force"
 	},
 	"files": [
-		"file.ts",
-		"../polyfill.d.ts"
+		"file.ts"
 	]
 }

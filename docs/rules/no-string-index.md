@@ -6,19 +6,13 @@
 
 <!-- end auto-generated rule header -->
 
-💼 This rule is enabled in the ✅ `recommended` config.
-
-🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
-
-<!-- end auto-generated rule header -->
-
 Old IE and Opera do not support string index notation, and it cannot use polyfills to provide compatibility with new features.
 
 ## Rule Details
 
 Examples of **incorrect** code for this rule:
 
-```js
+```ts
 "1"[0];
 
 ("1")['0'];
@@ -28,7 +22,7 @@ Examples of **incorrect** code for this rule:
 
 Examples of **correct** code for this rule:
 
-```js
+```ts
 "1".at(0);
 
 "1".charAt(0);

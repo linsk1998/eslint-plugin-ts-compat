@@ -4,17 +4,13 @@
 
 <!-- end auto-generated rule header -->
 
-💼 This rule is enabled in the ✅ `recommended` config.
-
-<!-- end auto-generated rule header -->
-
 When we use Babel to transform js. RegExp flags could be change. This rule can avoid the differences caused by it.
 
 ## Rule Details
 
 Examples of **incorrect** code for this rule:
 
-```js
+```ts
 var a: RegExp = /^.$/;
 a.flags;
 
@@ -28,7 +24,7 @@ c.flags;
 
 Examples of **correct** code for this rule:
 
-```js
+```ts
 (/^.$/u).test('');
 
 class RegExp {

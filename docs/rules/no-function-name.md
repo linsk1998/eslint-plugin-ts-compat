@@ -4,51 +4,33 @@
 
 <!-- end auto-generated rule header -->
 
-💼 This rule is enabled in the ✅ `recommended` config.
-
-<!-- end auto-generated rule header -->
-
-The sticky functionality of regular expressions cannot be transpiled by Babel, and it should be avoided.
+The name attribute of a function is often optimized by construction tools. Due to its limited use, using the babel plugin for compatibility comes at a high cost.
 
 ## Rule Details
 
 Examples of **incorrect** code for this rule:
 
-```js
-(/^.$/).sticky;
+```ts
+var a = () => 1;
+a.name;
 
-var a: RegExp = /^.$/;
-a.sticky;
-
-var b = new RegExp("hello", "g");
-b.sticky;
-
-class MyRegExp extends RegExp { }
-var c = new MyRegExp("hello", "g");
-c.sticky;
-
-/^foo/y;
-
-new RegExp('^foo', 'y');
+function b(){}
+b.name;
 ```
 
 Examples of **correct** code for this rule:
 
-```js
-(/^.$/).test('');
-
-class RegExp {
-	constructor(a, b) { }
-	declare sticky;
-};
-var a = new RegExp('^foo', 'y');
-a.sticky;
+```ts
+var a:any;
+a.name;
 ```
 
 ## When Not To Use It
 
-Use RegExp polyfill.
+* Use safety build tool to keep Function `name`.
+* Use `Function.prototype.name` polyfill.
+* Use Babel plugin set `name` after function define.
 
 ## Further Reading
 
-[can i use regexp sticky](https://caniuse.com/mdn-javascript_builtins_regexp_sticky)
+[can i use function name](https://caniuse.com/mdn-javascript_builtins_function_name)

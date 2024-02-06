@@ -25,18 +25,18 @@ const ruleTester = new RuleTester({
 });
 ruleTester.run("no-function-name", rule, {
 	valid: [
-		{ code: `(/^.$/u).test('');` },
-		{ code: `class RegExp{declare flags;}; var a=new RegExp(); a.flags;` }
+		{ code: `var a:any; a.name;` },
+		{ code: `class Foo{}; Foo.name;` }
 	],
 
 	invalid: [
-		// {
-		// 	code: `var a = () => 1; a.name;`,
-		// 	errors: 1,
-		// },
-		// {
-		// 	code: `var b: Function; b.name;`,
-		// 	errors: 1,
-		// }
+		{
+			code: `var a = () => 1; a.name;`,
+			errors: 1,
+		},
+		{
+			code: `var b: Function; b.name;`,
+			errors: 1,
+		}
 	],
 });

@@ -9,7 +9,7 @@
 //------------------------------------------------------------------------------
 const path = require("path");
 const { RuleTester } = require("@typescript-eslint/rule-tester");
-const rule = require("../../../lib/rules/no-regexp-unicode");
+const rule = require("../../../lib/rules/prefer-inner-text");
 //------------------------------------------------------------------------------
 // Tests
 //------------------------------------------------------------------------------
@@ -20,14 +20,15 @@ const ruleTester = new RuleTester({
 		tsconfigRootDir: path.resolve(process.cwd(), "./tests"),
 	},
 });
-ruleTester.run("no-regexp-unicode", rule, {
+ruleTester.run("prefer-inner-text", rule, {
 	valid: [
-		{ code: `var a: Node; a.textContent;` }
+		{ code: `var a: HTMLElement; a.innerText;` }
 	],
 
 	invalid: [
 		{
-			code: `var b: Node; b.innerText;`,
+			code: `var b: HTMLElement; b.textContent;`,
+			output: `var b: HTMLElement; b.innerText;`,
 			errors: 1,
 		}
 	],

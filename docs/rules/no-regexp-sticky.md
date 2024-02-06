@@ -4,17 +4,13 @@
 
 <!-- end auto-generated rule header -->
 
-💼 This rule is enabled in the ✅ `recommended` config.
-
-<!-- end auto-generated rule header -->
-
 The sticky functionality of regular expressions cannot be transpiled by Babel, and it should be avoided.
 
 ## Rule Details
 
 Examples of **incorrect** code for this rule:
 
-```js
+```ts
 (/^.$/).sticky;
 
 var a: RegExp = /^.$/;
@@ -34,7 +30,7 @@ new RegExp('^foo', 'y');
 
 Examples of **correct** code for this rule:
 
-```js
+```ts
 (/^.$/).test('');
 
 class RegExp {

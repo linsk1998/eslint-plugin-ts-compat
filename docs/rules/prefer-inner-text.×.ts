@@ -1,7 +1,7 @@
-var a: Node;
+var a: HTMLElement;
 a.innerText;
 
 
 
-var b: Node;
+var b: HTMLElement;
 b.textContent;

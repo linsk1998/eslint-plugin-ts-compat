@@ -1,44 +1,32 @@
-# Disable string index (`ts-compat/no-string-index`)
-
-💼 This rule is enabled in the ✅ `recommended` config.
+# Prefer .innerText (`ts-compat/prefer-inner-text`)
 
 🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
 
 <!-- end auto-generated rule header -->
 
-💼 This rule is enabled in the ✅ `recommended` config.
-
-🔧 This rule is automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/latest/user-guide/command-line-interface#--fix).
-
-<!-- end auto-generated rule header -->
-
-Old IE and Opera do not support string index notation, and it cannot use polyfills to provide compatibility with new features.
+`innerText` is a factual standard that is supported by all browsers, and polyfills can be used to achieve compatibility in older versions of browsers. Although `textContent` is a defined standard, it cannot be made compatible using polyfills.
 
 ## Rule Details
 
 Examples of **incorrect** code for this rule:
 
-```js
-"1"[0];
-
-("1")['0'];
-
-(`1`)[0];
+```ts
+var b: HTMLElement;
+b.textContent;
 ```
 
 Examples of **correct** code for this rule:
 
-```js
-"1".at(0);
-
-"1".charAt(0);
+```ts
+var a: HTMLElement;
+a.innerText;
 ```
 
 ## When Not To Use It
 
-Read string mothed by notation.
+Abandon compatibility with older versions of IE.
 
 ## Further Reading
 
-* [String.prototype.at()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/at)
-* [String.prototype.charAt()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
+* [HTMLElement: innerText property](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText)
+* [HTML Standard # the-innertext-idl-attribute](https://html.spec.whatwg.org/multipage/dom.html#the-innertext-idl-attribute)
