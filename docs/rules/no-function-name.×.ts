@@ -4,4 +4,3 @@ a.name;
 
 var b: Function;
 b.name;
-

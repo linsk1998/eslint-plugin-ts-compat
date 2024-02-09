@@ -12,11 +12,11 @@ module.exports = {
 				sourceType: 'module'
 			},
 			files: ["docs/**/*.ts"],
-			// "extends": [
-			// 	"plugin:ts-compat/recommended"
-			// ],
+			"extends": [
+				"plugin:ts-compat/recommended"
+			],
 			rules: {
-				"ts-compat/prefer-inner-text": 2
+				// "ts-compat/prefer-inner-text": 2
 			}
 		},
 		{
