@@ -71,6 +71,7 @@ Support a [browserslist](https://www.npmjs.com/package/browserslist) configurati
 
 | Name                                                     | Description                                  | 💼 | 🔧 |
 | :------------------------------------------------------- | :------------------------------------------- | :- | :- |
+| [no-class-list](docs/rules/no-class-list.md)             | Disable classList                            | ✅  |    |
 | [no-function-name](docs/rules/no-function-name.md)       | Disable Function.prototype.name              | ✅  |    |
 | [no-regexp-flags](docs/rules/no-regexp-flags.md)         | Disable RegExp.prototype.flags               | ✅  |    |
 | [no-regexp-sticky](docs/rules/no-regexp-sticky.md)       | Disable regexp sticky                        | ✅  |    |

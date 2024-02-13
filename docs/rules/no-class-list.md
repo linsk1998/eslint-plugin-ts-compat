@@ -1,4 +1,4 @@
-# Disable Function.prototype.name (`ts-compat/no-class-list`)
+# Disable classList (`ts-compat/no-class-list`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 
