@@ -69,14 +69,15 @@ Support a [browserslist](https://www.npmjs.com/package/browserslist) configurati
 ✅ Set in the `recommended` configuration.\
 🔧 Automatically fixable by the [`--fix` CLI option](https://eslint.org/docs/user-guide/command-line-interface#--fix).
 
-| Name                                                 | Description                                  | 💼 | 🔧 |
-| :--------------------------------------------------- | :------------------------------------------- | :- | :- |
-| [no-function-name](docs/rules/no-function-name.md)   | Disable Function.prototype.name              | ✅  |    |
-| [no-regexp-flags](docs/rules/no-regexp-flags.md)     | Disable RegExp.prototype.flags               | ✅  |    |
-| [no-regexp-sticky](docs/rules/no-regexp-sticky.md)   | Disable regexp sticky                        | ✅  |    |
-| [no-regexp-unicode](docs/rules/no-regexp-unicode.md) | Disable JavaScript built-in: RegExp: unicode | ✅  |    |
-| [no-string-index](docs/rules/no-string-index.md)     | Disable string index                         | ✅  | 🔧 |
-| [prefer-inner-text](docs/rules/prefer-inner-text.md) | Prefer .innerText                            | ✅  | 🔧 |
+| Name                                                     | Description                                  | 💼 | 🔧 |
+| :------------------------------------------------------- | :------------------------------------------- | :- | :- |
+| [no-function-name](docs/rules/no-function-name.md)       | Disable Function.prototype.name              | ✅  |    |
+| [no-regexp-flags](docs/rules/no-regexp-flags.md)         | Disable RegExp.prototype.flags               | ✅  |    |
+| [no-regexp-sticky](docs/rules/no-regexp-sticky.md)       | Disable regexp sticky                        | ✅  |    |
+| [no-regexp-unicode](docs/rules/no-regexp-unicode.md)     | Disable JavaScript built-in: RegExp: unicode | ✅  |    |
+| [no-string-index](docs/rules/no-string-index.md)         | Disable string index                         | ✅  | 🔧 |
+| [prefer-immuable-url](docs/rules/prefer-immuable-url.md) | Prefer immuable url                          | ✅  |    |
+| [prefer-inner-text](docs/rules/prefer-inner-text.md)     | Prefer .innerText                            | ✅  | 🔧 |
 
 <!-- end auto-generated rules list -->
 
