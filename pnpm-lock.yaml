@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/jquery': ^3.5.29
   '@typescript-eslint/eslint-plugin': ^6.18.0
   '@typescript-eslint/parser': ^6.17.0
   '@typescript-eslint/rule-tester': ^6.17.0
@@ -8,7 +9,6 @@ specifiers:
   '@typescript-eslint/typescript-estree': ^6.17.0
   '@typescript-eslint/utils': ^6.17.0
   browserslist: ^4.22.2
-  caniuse-lite: ^1.0.30001576
   eslint: ^8.19.0
   eslint-doc-generator: ^1.0.0
   eslint-plugin-eslint-plugin: ^5.0.0
@@ -16,16 +16,17 @@ specifiers:
   mocha: ^10.0.0
   npm-run-all: ^4.1.5
   requireindex: ^1.2.0
+  sky-core: ^0.12.0
   tsutils: ^3.21.0
   typescript: ^5.3.3
 
 dependencies:
   browserslist: 4.22.3
-  caniuse-lite: 1.0.30001583
   requireindex: 1.2.0
   tsutils: 3.21.0_typescript@5.3.3
 
 devDependencies:
+  '@types/jquery': 3.5.29
   '@typescript-eslint/eslint-plugin': 6.20.0_mb4aacsok44wlk3qf5ewcirf74
   '@typescript-eslint/parser': 6.20.0_xdgzedli73k7lw4xlyzszm74om
   '@typescript-eslint/rule-tester': 6.20.0_xdgzedli73k7lw4xlyzszm74om
@@ -38,6 +39,7 @@ devDependencies:
   eslint-plugin-node: 11.1.0_eslint@8.56.0
   mocha: 10.2.0
   npm-run-all: 4.1.5
+  sky-core: 0.12.0
   typescript: 5.3.3
 
 packages:
@@ -158,12 +160,22 @@ packages:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
     dev: true
 
+  /@types/jquery/3.5.29:
+    resolution: {integrity: sha512-oXQQC9X9MOPRrMhPHHOsXqeQDnWeCDT3PelUIg/Oy8FAbzSZtFHRjc7IpbfFVmpLtJ+UOoywpRsuO5Jxjybyeg==}
+    dependencies:
+      '@types/sizzle': 2.3.8
+    dev: true
+
   /@types/json-schema/7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
     dev: true
 
   /@types/semver/7.5.6:
     resolution: {integrity: sha512-dn1l8LaMea/IjDoHNd9J52uBbInB796CDffS6VdIxvqYCPSG0V0DzHp76GpaWnlhg88uYyPbXCDIowa86ybd5A==}
+    dev: true
+
+  /@types/sizzle/2.3.8:
+    resolution: {integrity: sha512-0vWLNK2D5MT9dg0iOo8GlKguPAU02QjmZitPEsXRuJXU/OGIOt9vT9Fc26wtYuavLxtO45v9PGleoL9Z0k1LHg==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/6.20.0_mb4aacsok44wlk3qf5ewcirf74:
@@ -2064,6 +2076,10 @@ packages:
       call-bind: 1.0.5
       get-intrinsic: 1.2.2
       object-inspect: 1.13.1
+    dev: true
+
+  /sky-core/0.12.0:
+    resolution: {integrity: sha512-yjfZr7wBOV5t8Y7KrH/EzgeCc0iodtjZX/+zHSIgAihaWr+ZzeSr0DM+L4Jw5kUBt4OPZKjVKAe4uwywZoaqkw==}
     dev: true
 
   /slash/3.0.0:

@@ -6,6 +6,7 @@
 		],
 		"moduleResolution": "Node",
 		"esModuleInterop": false,
+		"allowSyntheticDefaultImports": true,
 		"isolatedModules": false,
 		"moduleDetection": "force"
 	},
