@@ -1,4 +1,4 @@
-# Disable Function.prototype.name (`ts-compat/no-function-name`)
+# Disable standard event (`ts-compat/no-event-listener`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 
