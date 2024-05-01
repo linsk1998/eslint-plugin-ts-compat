@@ -81,6 +81,7 @@ Support a [browserslist](https://www.npmjs.com/package/browserslist) configurati
 | [no-symbol](docs/rules/no-symbol.md)                     | Disable Symbol factory function.             | ✅  |    |
 | [prefer-immuable-url](docs/rules/prefer-immuable-url.md) | Prefer immuable url                          | ✅  |    |
 | [prefer-inner-text](docs/rules/prefer-inner-text.md)     | Prefer .innerText                            | ✅  | 🔧 |
+| [prefer-url-href](docs/rules/prefer-url-href.md)         | Prefer url href.                             |    | 🔧 |
 
 <!-- end auto-generated rules list -->
 
