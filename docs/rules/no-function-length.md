@@ -1,10 +1,10 @@
-# Disable Function.prototype.name (`ts-compat/no-function-name`)
+# Disable Function.prototype.length (`ts-compat/no-function-length`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 
 <!-- end auto-generated rule header -->
 
-The length attribute of a function is diffrent from browsers.
+The length property of native function is diffrent from browsers.
 
 ## Rule Details
 
@@ -27,8 +27,4 @@ a.length;
 
 ## When Not To Use It
 
-* Use new browsers.
-
-## Further Reading
-
-[can i use function length](https://caniuse.com/mdn-javascript_builtins_function_length)
+* Use for custom function.

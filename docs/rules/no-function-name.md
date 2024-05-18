@@ -4,7 +4,7 @@
 
 <!-- end auto-generated rule header -->
 
-The name attribute of a function is often optimized by build tools. Due to its limited use, using the babel plugin for compatibility comes at a high cost.
+The name property of a function is often optimized by build tools. Due to its limited use, using the babel plugin for compatibility comes at a high cost.
 
 ## Rule Details
 
