@@ -1,4 +1,8 @@
-# Disable standard event (`ts-compat/no-document-current-script.×`)
+# Disable document.currentScript (`ts-compat/no-document-current-script`)
+
+💼 This rule is enabled in the ✅ `recommended` config.
+
+<!-- end auto-generated rule header -->
 
 💼 This rule is enabled in the ✅ `recommended` config.
 
