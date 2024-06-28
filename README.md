@@ -81,6 +81,7 @@ Support a [browserslist](https://www.npmjs.com/package/browserslist) configurati
 | [no-regexp-unicode](docs/rules/no-regexp-unicode.md)                   | Disable JavaScript built-in: RegExp: unicode | ✅  |    |
 | [no-string-index](docs/rules/no-string-index.md)                       | Disable string index                         | ✅  | 🔧 |
 | [no-symbol](docs/rules/no-symbol.md)                                   | Disable Symbol factory function.             | ✅  |    |
+| [no-top-level-await](docs/rules/no-top-level-await.md)                 | Disable Top-Level await.                     | ✅  |    |
 | [prefer-immuable-url](docs/rules/prefer-immuable-url.md)               | Prefer immuable url                          | ✅  |    |
 | [prefer-inner-text](docs/rules/prefer-inner-text.md)                   | Prefer .innerText                            | ✅  | 🔧 |
 | [prefer-url-href](docs/rules/prefer-url-href.md)                       | Prefer url href.                             |    | 🔧 |

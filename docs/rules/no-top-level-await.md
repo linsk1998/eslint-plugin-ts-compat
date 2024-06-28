@@ -1,4 +1,4 @@
-# Disable Symbol factory function (`ts-compat/no-top-level-await`)
+# Disable Top-Level await (`ts-compat/no-top-level-await`)
 
 💼 This rule is enabled in the ✅ `recommended` config.
 
