@@ -74,6 +74,7 @@ Support a [browserslist](https://www.npmjs.com/package/browserslist) configurati
 | [no-class-list](docs/rules/no-class-list.md)                           | Disable classList                            | ✅  |    |
 | [no-document-current-script](docs/rules/no-document-current-script.md) | Disable document.currentScript.              | ✅  |    |
 | [no-event-listener](docs/rules/no-event-listener.md)                   | Disable standard event                       | ✅  |    |
+| [no-event-timestamp](docs/rules/no-event-timestamp.md)                 | Disable Event.prototype.timeStamp            |    |    |
 | [no-function-length](docs/rules/no-function-length.md)                 | Disable Function.prototype.length            | ✅  |    |
 | [no-function-name](docs/rules/no-function-name.md)                     | Disable Function.prototype.name              | ✅  |    |
 | [no-regexp-flags](docs/rules/no-regexp-flags.md)                       | Disable RegExp.prototype.flags               | ✅  |    |

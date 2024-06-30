@@ -1,7 +1,5 @@
 # Disable Event.prototype.timeStamp (`ts-compat/no-event-timestamp`)
 
-💼 This rule is enabled in the ✅ `recommended` config.
-
 <!-- end auto-generated rule header -->
 
 Event timeStamp is unusual use. Disable timeStamp for performent, vaind getting timeStamp in every event.
