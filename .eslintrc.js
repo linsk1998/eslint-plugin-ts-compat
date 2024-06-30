@@ -7,7 +7,7 @@ module.exports = {
 			plugins: ['@typescript-eslint', "ts-compat"],
 			parser: '@typescript-eslint/parser',
 			parserOptions: {
-				"project": "./docs/tsconfig.json",
+				project: "./docs/tsconfig.json",
 				ecmaVersion: 2021,
 				sourceType: 'module'
 			},
@@ -16,7 +16,7 @@ module.exports = {
 				"plugin:ts-compat/recommended"
 			],
 			rules: {
-				// "ts-compat/prefer-inner-text": 2
+				"ts-compat/no-event-timestamp": 2
 			}
 		},
 		{
