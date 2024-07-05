@@ -32,3 +32,4 @@ No compat property accessor.
 
 ## Further Reading
 
+[can i use defineProperty](https://caniuse.com/mdn-javascript_builtins_object_defineproperty)

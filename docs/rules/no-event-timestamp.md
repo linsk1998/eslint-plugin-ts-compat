@@ -27,3 +27,5 @@ e.timeStamp;
 Framework has polyfill event.
 
 ## Further Reading
+
+[can i use event.timestamp](https://caniuse.com/mdn-api_event_timestamp)
