@@ -12,11 +12,12 @@ module.exports = {
 				sourceType: 'module'
 			},
 			files: ["docs/**/*.ts"],
-			"extends": [
+			extends: [
 				"plugin:ts-compat/recommended"
 			],
 			rules: {
-				"ts-compat/no-event-timestamp": 2
+				"ts-compat/no-event-timestamp": 2,
+				"ts-compat/sealed-class": 2
 			}
 		},
 		{

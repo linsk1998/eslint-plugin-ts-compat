@@ -86,6 +86,7 @@ Support a [browserslist](https://www.npmjs.com/package/browserslist) configurati
 | [prefer-immuable-url](docs/rules/prefer-immuable-url.md)               | Prefer immuable url                          | ✅  |    |
 | [prefer-inner-text](docs/rules/prefer-inner-text.md)                   | Prefer .innerText                            | ✅  | 🔧 |
 | [prefer-url-href](docs/rules/prefer-url-href.md)                       | Prefer url href.                             |    | 🔧 |
+| [sealed-class](docs/rules/sealed-class.md)                             | Prefer sealed class                          |    |    |
 
 <!-- end auto-generated rules list -->
 
