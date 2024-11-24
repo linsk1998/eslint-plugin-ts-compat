@@ -29,6 +29,7 @@
 	"dependencies": {
 		"browserslist": "^4.22.2",
 		"requireindex": "^1.2.0",
+		"ts-api-utils": "^1.0.3",
 		"tsutils": "^3.21.0"
 	},
 	"devDependencies": {

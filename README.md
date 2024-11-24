@@ -72,6 +72,7 @@ Support a [browserslist](https://www.npmjs.com/package/browserslist) configurati
 | Name                                                                   | Description                                  | 💼 | 🔧 |
 | :--------------------------------------------------------------------- | :------------------------------------------- | :- | :- |
 | [no-class-list](docs/rules/no-class-list.md)                           | Disable classList                            | ✅  |    |
+| [no-date-parse](docs/rules/no-date-parse.md)                           | Not allow parse date string.                 | ✅  |    |
 | [no-document-current-script](docs/rules/no-document-current-script.md) | Disable document.currentScript.              | ✅  |    |
 | [no-event-listener](docs/rules/no-event-listener.md)                   | Disable standard event                       | ✅  |    |
 | [no-event-timestamp](docs/rules/no-event-timestamp.md)                 | Disable Event.prototype.timeStamp            |    |    |
