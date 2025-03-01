@@ -1,5 +1,9 @@
 # eslint-plugin-ts-compat
 
+[![npm version](https://img.shields.io/npm/v/eslint-plugin-ts-compat.svg)](https://www.npmjs.com/package/eslint-plugin-ts-compat)
+[![Build Status](https://github.com/linsk1998/eslint-plugin-ts-compat/workflows/CI/badge.svg)](https://github.com/linsk1998/eslint-plugin-ts-compat/actions)
+[![License](https://img.shields.io/npm/l/eslint-plugin-ts-compat.svg)](https://github.com/linsk1998/eslint-plugin-ts-compat/blob/main/LICENSE)
+
 This is a eslint-plugin to check browser compat base on TypeScript.
 
 * You can ban some code even Babel and Polyfills could not solve.
