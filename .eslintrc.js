@@ -17,6 +17,7 @@ module.exports = {
 			],
 			rules: {
 				"ts-compat/no-event-timestamp": 2,
+				"ts-compat/no-timer-args-exceed": 2,
 				"ts-compat/sealed-class": 2
 			}
 		},
